@@ -9,6 +9,7 @@
 #
 # History:
 # 2024-10-25/GF: Introduced 0.1/0 
+# 2024-10-25/GF: 0.2/0 - Added page header printout
 #
 
 import sys
@@ -16,7 +17,7 @@ import sys
 # total arguments
 n = len(sys.argv)
 
-C_THIS_VERSION = "Extract Canvas Annotations v.0.1/0 of 2024-10-25/GF"
+C_THIS_VERSION = "Extract Canvas Annotations v.0.2/0 of 2024-10-25/GF"
 
 print()
 print(C_THIS_VERSION)
@@ -46,6 +47,7 @@ with open(ansiFileName ) as f:
         lineNr = lineNr + 1
         if (isInsideAnnotation == 1):
             if ("MdU/FLA402" in line): 		# Needs hands-on edit when used for different project
+                print(line)
                 isInsideAnnotation = 0
         if ("Page: " in line):
             print()
