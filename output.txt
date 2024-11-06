@@ -1,0 +1,244 @@
+
+Extract Canvas Annotations v.0.2/0 of 2024-10-25/GF
+Missing file name!
+ANSI File name: InpTestAnsi.txt
+Using file 'InpTestAnsi.txt'
+
+Page: 1
+Number: 1 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-14 16:47:46
+the MDU logo is too big! It seems like MDU is the most important information in this document... which is not!
+to be fixed.
+Number: 2 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-21 11:39:15
+The project management plan is not a mandatory plan to pass the INL. The product description with the
+external interfaces and stakeholders is not provided. Description of the strategy for design and architecture is
+missing. These are the two main reasons for a FAIL.
+MdU/FLA402 00_014.1R_Project Management Plan 2024-10-13/AI
+
+
+Page: 3
+Number: 1 Author: Luciana Provenzano Subject: Comment on Text Date: 2024-10-14 18:18:27
+our scope is to focus on OR This project will focus on
+MdU/FLA402 00_014.1R_Project Management Plan 2024-10-13/AI
+
+
+Page: 4
+Number: 1 Author: Luciana Provenzano Subject: Comment on Text Date: 2024-10-14 18:20:13
+how is your resource management effective? why are these persons in these roles the optimal choice that
+makes the resource management effective?
+Number: 2 Author: Luciana Provenzano Subject: Comment on Text Date: 2024-10-14 18:21:42
+if the chief engineer ensures the technical aspects of the project, why is the chief engineer the author of the
+project management plan? add it in the responsibilities.
+MdU/FLA402 00_014.1R_Project Management Plan 2024-10-13/AI
+
+
+Page: 5
+Number: 1 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-14 18:23:12
+which are the project management tools?
+Number: 2 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-14 18:24:10
+what about the hours you spend in this project? can they be considered "budget"?
+Number: 3 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-14 18:25:30
+what does it mean LP1 and LP2?
+MdU/FLA402 00_014.1R_Project Management Plan 2024-10-13/AI
+
+
+Page: 6
+Number: 1 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-14 18:27:38
+why this register is not uploaded for the INL1? is the risk register the table below?
+Number: 2 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-14 18:29:11
+Tables must have captions! caption is missed here.
+Number: 3 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-14 18:34:30
+when a table is split in two or more pages, it is good 1) to repeat the header; 2) to ensure that the same row is
+not split, as in this case.
+MdU/FLA402 00_014.1R_Project Management Plan 2024-10-13/AI
+
+
+Page: 7
+Number: 1 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-14 18:35:37
+strange number.... why? I hope I will find an explanation ;)
+MdU/FLA402 00_014.1R_Project Management Plan 2024-10-13/AI
+
+
+Page: 8
+Number: 1 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-14 18:38:27
+what is an example of task?
+Number: 2 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-14 18:39:43
+to whom?
+MdU/FLA402 00_014.1R_Project Management Plan 2024-10-13/AI
+
+
+Page: 11
+Number: 1 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-21 11:40:44
+The Configuration Management plan is very precise and its content is appropriate. ++ the clauses from the IEC
+61508-1 standard concerning the configuration management. This shows that you have used the standard as
+base to define the process. Very good!
+MdU/FLA402 00_003.1R_Configuration Management Plan 2024-10-09/GF
+
+
+Page: 14
+Number: 1 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-15 07:41:29
+This is very nice!
+MdU/FLA402 00_003.1R_Configuration Management Plan 2024-10-09/GF
+
+
+Page: 15
+Number: 1 Author: Luciana Provenzano Subject: Comment on Text Date: 2024-10-15 07:44:39
+where can I find this ...document?
+MdU/FLA402 00_003.1R_Configuration Management Plan 2024-10-09/GF
+
+
+Page: 16
+Number: 1 Author: Luciana Provenzano Subject: Comment on Text Date: 2024-10-15 07:50:29
+good!
+MdU/FLA402 00_003.1R_Configuration Management Plan 2024-10-09/GF
+
+
+Page: 18
+Number: 1 Author: Luciana Provenzano Subject: Comment on Text Date: 2024-10-15 07:53:05
+where can I find this document?
+MdU/FLA402 00_003.1R_Configuration Management Plan 2024-10-09/GF
+
+
+Page: 21
+Number: 1 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-15 07:54:27
+you forgot your surname.!
+MdU/FLA402 00_004.1R_Quality Management Plan 2024-10-13/SD
+
+
+Page: 23
+Number: 1 Author: Luciana Provenzano Subject: Comment on Text Date: 2024-10-16 15:13:04
+did you approve your own plan? is it correct?
+Number: 2 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-15 08:04:25
+From the revision history, it seems like this plan has been "released" without any review. But, there is a review
+record that shows that a review has been done. The review record should be used to justify the content of the
+release in the column "Changes/Notes" of the revision history. This also means that the released version of the
+document for the INL (the formal gate) should not be draft but a first approved version.
+MdU/FLA402 00_004.1R_Quality Management Plan 2024-10-13/SD
+
+
+Page: 27
+Number: 1 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-21 11:42:26
+(from Johan) I find the plan to be well written and motivated for the current stage. I expect there will be more
+details into the specific tests in the future, but overall the plan is adequate.
+MdU/FLA402 00_005.1R_Validation and Verification and Plan 2024-10-13/SD
+
+
+Page: 33
+Number: 1 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-21 11:43:46
+The plan includes important subjects to manage requirements. However, there are parts that need to be
+improved. The syntax to write the requirements is missed, how to achieve good quality requirements too.
+These are two issues that need to be fixed before starting working with the requirements.
+MdU/FLA402 00_013.1R_Requirement Management Plan 2024-10-13/DL
+
+
+Page: 35
+Number: 1 Author: Luciana Provenzano Subject: Comment on Text Date: 2024-10-16 15:11:19
+This text seems a little bit generic. It is good that you talk about the prototypes, which is the aim of your
+project. However, you should explicitly mention the project's aim.
+Number: 2 Author: Luciana Provenzano Subject: Comment on Text Date: 2024-10-16 15:11:41
+what does it mean "introduced"?
+Number: 3 Author: Luciana Provenzano Subject: Comment on Text Date: 2024-10-16 15:15:53
+for a specific product OR for the thermal ... prototypes for Westermo? be more specific to your project since
+this is not a generic requirements management plan but the plan for Westermo's thermal prototype.
+Number: 4 Author: Luciana Provenzano Subject: Comment on Text Date: 2024-10-16 15:16:13
+provides, describes.... better
+Number: 5 Author: Luciana Provenzano Subject: Comment on Text Date: 2024-10-16 15:16:51
+requirements changes come after specification.
+MdU/FLA402 00_013.1R_Requirement Management Plan 2024-10-13/DL
+
+
+Page: 36
+Number: 1 Author: Luciana Provenzano Subject: Comment on Text Date: 2024-10-16 15:17:26
+quality, Quality: repeated twice
+Number: 2 Author: Luciana Provenzano Subject: Comment on Text Date: 2024-10-16 15:19:49
+is Westermo the only stakeholder?
+Number: 3 Author: Luciana Provenzano Subject: Comment on Text Date: 2024-10-16 15:21:59
+here you could write something like that: ensuring that all requirements that capture the relevant parameters
+and behaviour concerning the heat emissions are correctly managed in order for the prototype to be as much
+accurate as possible.
+MdU/FLA402 00_013.1R_Requirement Management Plan 2024-10-13/DL
+
+
+Page: 37
+Number: 1 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-16 15:37:39
+how is the requirements management plan the input for standards and stakeholder's needs? Add explanation
+in the text (refer to the next comment).
+Number: 2 Author: Luciana Provenzano Subject: Comment on Text Date: 2024-10-16 15:24:28
+Introduce this figure in the text. For example, you can say: The process that is applied to manage the
+requirements within this project is depicted in figure1, by providing additional explanation that helps the
+reader to understand the idea.
+Number: 3 Author: Luciana Provenzano Subject: Comment on Text Date: 2024-10-16 15:27:26
+It is good to align the activities with the figure. For example, in Figure 1 you talk about Requirements
+Elicitation. Here, you should say "in the Requirements Elicitation" phase (Figure 1)..."
+Number: 4 Author: Luciana Provenzano Subject: Comment on Text Date: 2024-10-16 15:27:54
+goals or needs.
+Number: 5 Author: Luciana Provenzano Subject: Comment on Text Date: 2024-10-16 15:31:27
+do you have a context diagram where one can see the main external systems of your product?
+Number: 6 Author: Luciana Provenzano Subject: Comment on Text Date: 2024-10-16 15:31:59
+?
+MdU/FLA402 00_013.1R_Requirement Management Plan 2024-10-13/DL
+
+
+Page: 38
+Number: 1 Author: Luciana Provenzano Subject: Comment on Text Date: 2024-10-16 15:36:01
+can you find requirements from the standards that concern the reliability of such products?
+Number: 2 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-16 15:38:53
+what about specify the requirements? which syntax are you going to use? what about ensuring the
+requirements quality?
+Number: 3 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-16 15:42:27
+why is this attribute important? to be explained.
+Number: 4 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-16 15:43:23
+do you foresee a structure of the requirements specification document?
+Number: 5 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-16 15:42:51
+which tools?
+MdU/FLA402 00_013.1R_Requirement Management Plan 2024-10-13/DL
+
+
+Page: 39
+Number: 1 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-16 15:48:54
+why is this field just part of the traceability matrix and not of the requirements specification itself? but,
+especially, why is there a difference between requirements table and traceability matrix? to be explained!
+Also, duplicate the same information twice (e.g., priority, source, etc.) is error-prone and should be avoided.
+Number: 2 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-16 15:51:42
+You must define a strategy to write high-quality requirements using the same standards that the quality
+manager will use to check the requirements. Indeed, if you do not set a strategy to write good quality
+requirements, you will not get good quality requirements, which means that you must re-iterate the review
+process many times before achieving quality.
+Number: 3 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-16 15:52:42
+You must also specify when the review is done. You have an attribute for making a requirement ready for
+review.
+Number: 4 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-16 15:57:05
+how will requirements be validated? by testing? by simulation? which requirements will undergo the
+validation? to be explained. When pointing to another plan, as in this case, you must add the precise section
+(number of page) of the plan (document) where it is said and add a proper reference. References to the other
+project's documents are missing. To be added where necessary in the text ad in section "Standards/
+References".
+Number: 5 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-16 15:57:55
+add the precise reference to the figure.
+MdU/FLA402 00_013.1R_Requirement Management Plan 2024-10-13/DL
+
+
+Page: 40
+Number: 1 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-16 16:00:14
+Use case, scenario and abuse case are not tool but methods. when are these techniques used? why?
+Number: 2 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-16 16:04:53
+as far as I know the abuse cases are used to identify security requirements. Find a good reference, read it, and
+reference it.
+MdU/FLA402 00_013.1R_Requirement Management Plan 2024-10-13/DL
+
+
+Page: 41
+Number: 1 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-16 16:00:53
+Tables must have captions and headers. Always. To be updated.
+Number: 2 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-16 16:02:52
+it is not good to have an empty section. Add here the table that includes the references to the other plans
+(refer to one of my previous comments) and other papers that you may need to use to complete this plan. For
+example, add a reference to some papers that introduce the abuse case, the use case, the scenarios, etc.
+Empty Page
+MdU/FLA402 00_007.1R_Safety Management Plan 2024-10-13/SD
+
+
+Line Count =  1718
+
+End of execution of Extract Canvas Annotations v.0.2/0 of 2024-10-25/GF
+
+Press any key to continue . . .

@@ -1,0 +1,1718 @@
+MdU/FLA402 00_014.1R_Project Management Plan 2024-10-13/AI
+1
+Mälardalens University
+School of Innovation Design and Engineering
+Västerås, Sweden
+_________________________________________________________________________________
+Project Course in Dependable Systems: FLA402, 2024ht
+_________________________________________________________________________________
+Project Management Plan
+_________________________________________________________________________________
+Westermo, Virtual Thermal Prototype
+_________________________________________________________________________________
+Version: 1
+2024-10-04
+Author(s) Responsibility Email
+Ahmed Ibrahim Chief Engineer aim18002@student.mdu.se
+ge
+1
+2
+Summary of Comments on FLA402-Westermo Virtual Thermal
+Prototype-plans (2).pdf
+Page: 1
+Number: 1 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-14 16:47:46
+the MDU logo is too big! It seems like MDU is the most important information in this document... which is not!
+to be fixed.
+Number: 2 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-21 11:39:15
+The project management plan is not a mandatory plan to pass the INL. The product description with the
+external interfaces and stakeholders is not provided. Description of the strategy for design and architecture is
+missing. These are the two main reasons for a FAIL.
+MdU/FLA402 00_014.1R_Project Management Plan 2024-10-13/AI
+2
+Overview ................................................................................................................ 3
+Approvals ............................................................................................................ 3
+Revision History ................................................................................................... 3
+Abbreviations ...................................................................................................... 3
+Introduction ............................................................................................................ 3
+Purpose and Scope .............................................................................................. 3
+Objective List ....................................................................................................... 4
+Resource Management Plan .................................................................................... 4
+Roles and Responsibilities .................................................................................... 4
+Software and Tools ............................................................................................... 5
+Budget and Financial Resources ........................................................................... 5
+Communication Management Plan ....................................................................... 5
+Milestone List ......................................................................................................... 5
+Planning/Process/Approach ................................................................................. 5
+Risk Management Plan ............................................................................................ 6
+Risk Monitoring .................................................................................................... 6
+Configuration Management Plan .............................................................................. 7
+Change Management Plan ....................................................................................... 7
+Quality Management Plan ........................................................................................ 7
+V&V Management Plan ............................................................................................ 7
+Requirement Management Plan ............................................................................... 7
+Safety Management Plan ......................................................................................... 7
+Monitoring and Control ............................................................................................ 7
+Progress Tracking ................................................................................................. 8
+Schedule Monitoring ............................................................................................ 8
+Quality Control .................................................................................................... 8
+Project Closure ....................................................................................................... 8
+Approval Plan.......................................................................................................... 8
+Standards/References ............................................................................................. 9
+Standards used for project work ............................................................................ 9
+MdU/FLA402 00_014.1R_Project Management Plan 2024-10-13/AI
+3
+Standards for Westermo product .......................................................................... 9
+References .......................................................................................................... 9
+Overview
+Approvals
+Name Position Version Date
+Sebastian Daag QM Manager 014.1 TBA
+Revision History
+Name Version Date Changes/Notes
+Ahmed Ibrahim 014.1W 2024-10-04 Introduced
+Ahmed Ibrahim 014.1R 2024-10-13 Ready for review
+Abbreviations
+CFD Computational fluid dynamics
+KPI Key Performance Indicators
+Introduction
+This project management plan outlines the approach, processes, and tools that will be
+used to manage and deliver the project successfully. This plan ensures a clear
+understanding of project objectives, roles and responsibilities, communication
+strategies, risk management, and approval plan to guide the project toward its
+successful completion.
+Purpose and Scope
+In this project, we focus on optimizing the thermal properties of Westermo’s industrialgrade
+hardware, for example Viper-208-T4G-TBN. Ethernet switch. The goal is to
+simulate, test, and optimize the product's thermal performance in a virtual
+environment, ensuring that it meets the required thermal standards before physical
+prototyping.
+Westermo's hardware is designed to operate in extreme environments, with strict
+performance requirements under harsh conditions such as wide temperature ranges,
+vibrations, and electrical disturbances. The Viper-208-T4G-TBN relies on passive
+cooling, as it does not have built-in fans, which adds complexity to the thermal
+management of the product. Our scope will focus
+on how heat is generated, dissipated,
+and transferred through the product, ensuring that it can operate reliably under these
+conditions.
+s1cope
+Page: 3
+Number: 1 Author: Luciana Provenzano Subject: Comment on Text Date: 2024-10-14 18:18:27
+our scope is to focus on OR This project will focus on
+MdU/FLA402 00_014.1R_Project Management Plan 2024-10-13/AI
+4
+The virtual thermal simulation will allow us to predict heat generation and dissipation
+across the product. Thus, reducing the need for multiple physical prototype rounds,
+saving both time and costs.
+Objective List
+1. Simulate the thermal performance of the Viper-208-T4G-TBN in a virtual
+environment.
+2. Identify potential thermal issues such as overheating or inadequate heat
+dissipation.
+3. Ensure the product meets industry-specific thermal standards for extreme
+environments.
+4. Reduce the number of physical prototypes rounds required by validating designs
+through virtual simulations.
+Resource Management Plan
+Effective resource
+management is crucial to ensure the successful completion of the
+project. The following outlines the key resources required, their allocation, and
+management throughout the project:
+Roles and Responsibilities
+Role Name Responsibility overview
+Chief Engineer Ahmed
+Ibrahim
+The Chief Engineer leads the technical aspects
+of the
+project, ensuring that all engineering work is
+technically sound and aligned with project goals.
+Requirements
+The Requirements Manager ensures that all project
+requirements are clearly defined, documented, and
+managed throughout the project lifecycle.
+Safety
+Manager
+Sebastian
+Daag
+The Safety Manager is responsible for identifying,
+assessing, and mitigating potential hazards to ensure
+the project complies with safety standards and
+regulations.
+Quality
+Manager
+Sebastian
+Daag
+The Quality Manager ensures that the project's
+deliverables meet predefined quality standards and
+that the processes used during the project are
+effective and efficient.
+V&V Manager Göran
+Forsström
+The V&V Manager ensures that the project
+deliverables meet the requirements and are validated
+for functionality and performance.
+Configuration
+Manager
+Göran
+Forsström
+The Configuration Manager is responsible for
+managing and controlling the project’s configuration
+items (software, documents, hardware) to ensure
+consistency and traceability across the project
+lifecycle.
+1
+2
+Page: 4
+Number: 1 Author: Luciana Provenzano Subject: Comment on Text Date: 2024-10-14 18:20:13
+how is your resource management effective? why are these persons in these roles the optimal choice that
+makes the resource management effective?
+Number: 2 Author: Luciana Provenzano Subject: Comment on Text Date: 2024-10-14 18:21:42
+if the chief engineer ensures the technical aspects of the project, why is the chief engineer the author of the
+project management plan? add it in the responsibilities.
+MdU/FLA402 00_014.1R_Project Management Plan 2024-10-13/AI
+5
+Software and Tools
+Software/Tool Use/ Purpose
+SolidWorks,
+CFD
+For creating CAD models and performing thermal simulations using
+CFD to analyse heat flow and dissipation.
+Python Used for automating simulation tasks, data processing, and
+analyzing thermal data results for performance insights.
+Matlab For complex data analysis, mathematical modeling, and visualizing
+the results of thermal simulations.
+Project
+Management
+Tools
+For planning, tracking, and coordinating tasks, timelines, and
+milestones to ensure smooth project execution.
+Budget and Financial Resources
+As this project is being conducted in collaboration with Westermo and the Mälardalens
+University, no direct budget or financial resources are managed within this project. All
+software, tools, and resources will be provided by the university, with all relevant
+licences.
+Communication Management Plan
+Weekly Team Meetings: For updates on progress, addressing challenges, and
+managing task coordination.
+Communication Tools: Microsoft Teams
+Stakeholder Meetings: Regular meetings with stakeholders with Westermo to provide
+progress updates and gather feedback.
+Milestone List
+Goal Deadline
+INL1 2024-10-13
+SEM1 2024-10-18
+INL2 2024-12-01
+SEM2 2024-12-05
+INL3 2024-12-15
+SEM3 2024-12-18
+Planning/Process/Approach
+Project duration:
+Period Date Nr of
+weeks
+Part time Project nr
+of weeks
+Notes
+24Ht
+LP1
+2024-09-02 … 2024-11-10 10 50% 5
+P
+M
+th
+LP
+1
+2
+3
+Page: 5
+Number: 1 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-14 18:23:12
+which are the project management tools?
+Number: 2 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-14 18:24:10
+what about the hours you spend in this project? can they be considered "budget"?
+Number: 3 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-14 18:25:30
+what does it mean LP1 and LP2?
+MdU/FLA402 00_014.1R_Project Management Plan 2024-10-13/AI
+6
+24Ht
+LP2
+2024-11-11 ... 2025-01-19 10 100% 10
+Risk Management Plan
+Effective risk management is essential to ensure the smooth execution of the project
+and to mitigate potential challenges that could affect the project timeline or outcomes.
+Below are the key risks identified for this project, along with mitigation strategies:
+Risk Monitoring
+Risk Register: A
+risk register will be maintained throughout the project to log and
+monitor risks. Each identified risk will be evaluated for likelihood and impact, with
+mitigation strategies applied as necessary.
+Regular Risk Assessments: The team will conduct weekly risk assessments during
+project meetings, updating risk mitigation strategies and escalating critical issues as
+needed.
+Risk Impact Likelihood Mitigation Strategy
+Inaccurate
+Simulation
+Results
+Incorrect thermal
+predictions leading to
+design issues or failures.
+Medium Validate simulations by
+comparing with known
+benchmarks and perform
+iterative checks.
+Software or
+Tool Issues
+Delays in simulation or
+inability to perform
+analyses due to technical
+problems.
+Medium Ensure all necessary
+software and tools are
+installed and probably
+tested.
+Miscommuni
+cation Among
+Team
+Members
+Delayed progress due to
+misalignment on goals,
+tasks, or deliverables.
+Medium Implement regular
+communication through
+weekly meetings and clear
+task assignments. Use
+project management tools
+to track progress.
+Delays in
+Receiving
+Feedback
+from
+Stakeholders
+Extended timelines if
+feedback from Westermo
+or the university is
+delayed.
+Low Schedule regular checkins
+with stakeholders and
+set clear deadlines for
+feedback. Escalate issues
+promptly if delays are
+encountered.
+Complexity of
+Passive
+Cooling
+Optimization
+Difficulty in effectively
+optimizing passive
+cooling, potentially
+leading to inefficient
+thermal management.
+High Conduct thorough
+research and simulations
+on passive cooling
+solutions early in the
+project. Collaborate
+closely with hardware
+engineers to ensure all
+er: E
+In
+Pa
+Co
+1
+2
+3
+Page: 6
+Number: 1 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-14 18:27:38
+why this register is not uploaded for the INL1? is the risk register the table below?
+Number: 2 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-14 18:29:11
+Tables must have captions! caption is missed here.
+Number: 3 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-14 18:34:30
+when a table is split in two or more pages, it is good 1) to repeat the header; 2) to ensure that the same row is
+not split, as in this case.
+MdU/FLA402 00_014.1R_Project Management Plan 2024-10-13/AI
+7
+constraints are
+considered.
+Failure to
+Meet
+Compliance
+Standards
+Potential for design not
+meeting industry-specific
+thermal standards,
+requiring redesigns.
+Low Involve the compliance
+specialist early in the
+process to ensure that
+simulations meet all
+required standards and
+regulatory guidelines.
+Scope Creep Unplanned additional
+features or tasks that
+extend the project
+timeline.
+High Clearly define the project
+scope early and get
+stakeholder agreement.
+Ensure any changes are
+properly evaluated before
+being incorporated.
+Team
+Availability
+Team member absences
+or limited availability
+affecting project
+milestones.
+Low Set clear deadlines and
+work distribution.
+Configuration Management Plan
+See appendix 003.1 in the appendix section of this document.
+Change Management Plan
+See section ‘Change Control Board’ in appendix 003.1 in the appendix section of this
+document.
+Quality Management Plan
+See appendix 004.1 in the appendix section of this document.
+V&V Management Plan
+See appendix 005.1 in the appendix section of this document.
+Requirement Management Plan
+See appendix 006.1 in the appendix section of this document.
+Safety Management Plan
+See appendix 007.1 in the appendix section of this document.
+Monitoring and Control
+A successful monitoring and control are essential to ensure the project stays on track
+with respect to scope, time, quality, and resources. This section outlines how project
+003. 1
+Page: 7
+Number: 1 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-14 18:35:37
+strange number.... why? I hope I will find an explanation ;)
+MdU/FLA402 00_014.1R_Project Management Plan 2024-10-13/AI
+8
+progress will be tracked, measured, and adjusted as necessary to meet the project
+objectives.
+Progress Tracking
+KPI: Regular KPIs will be established to measure progress of the project.
+?? Percentage of tasks completed on time.
+?? Number of issues or risks resolved.
+?? Milestones achieved
+Task Tracking: Using project management tools such as Microsoft Tasks, each task will
+be assigned a timeline and tracked to ensure completion.
+Schedule Monitoring
+Gantt Chart: A Gantt chart will be used to visualize project timelines and tasks.
+Milestone Reviews: The team will conduct milestone reviews at key stages of the
+project to assess whether the project is progressing according to plan.
+Quality Control
+Checks: Regular checks will be performed to validate the results against real-world
+data or known benchmarks, ensuring accuracy and reliability.
+Compliance Checks: The compliance will regularly be verified, that the thermal
+performance simulations align with industry-specific standards, ensuring that the
+design meets the necessary regulations before physical prototyping.
+Project Closure
+The project closure phase/reporting phase ensures that all project deliverables are
+completed, the project objectives are met, and all stakeholders are satisfied with the
+outcomes. This phase also includes handover of all the relevant results, project
+evaluation, documenting lessons learned, and all relevant project documentation.
+Approval Plan
+The approval plan outlines the process for reviewing and formally approving project
+deliverables and milestones to ensure that they meet the required quality standards
+and objectives. Key deliverables, such as thermal simulation results, and compliance
+validation reports, will be submitted to both Westermo and university representatives
+for review and approval.
+At each major project milestone, formal sign-off will be required to confirm that the
+project is progressing as planned. Any changes to the project scope, timeline, or
+ent
+nsur
+ndov
+1
+2
+Page: 8
+Number: 1 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-14 18:38:27
+what is an example of task?
+Number: 2 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-14 18:39:43
+to whom?
+MdU/FLA402 00_014.1R_Project Management Plan 2024-10-13/AI
+9
+resources will follow the established change management process, requiring review
+and approval by the project’s stakeholders.
+Upon completion of the project, all final deliverables will undergo a comprehensive
+review. Once approved by Westermo and the university, the project will be formally
+closed, and all documentation will be handed over.
+Standards/References
+List of standards and references used to build the boundaries of the project
+management plan
+Standards used for project work
+IEC 61508 Functional Safety of Electrical/Electronic/Programmable Electronic
+Safety-related Systems (E/E/PE, or E/E/PES)
+Standards for Westermo product
+Standard Title Comment
+IEEE 1478 IEEE Standard for
+Environmental Conditions for
+Transit Railcar Electronic
+Equipment
+None
+EN 50155 Railway applications - Rolling
+stock - Electronic equipment
+Reference Johan Furunäs Åkesson,
+mail of 2024-10-09 / 08:27:
+It is good enough to use the
+50155:2017 version.
+EN/IEC/UL
+61010-1
+Safety requirements for
+electrical equipment for
+measurement, control, and
+laboratory use-Part1
+Reference Johan Furunäs Åkesson,
+mail of 2024-10-07 / 13:52:
+Version used by Westermo test
+EN/IEC/UL
+61010-2-201
+Safety Requirements for
+Electrical Equipment for
+Measurement, Control, and
+Laboratory Use-Part2
+d:o
+References
+A Guide to the Project Management Body
+of Knowledge PMBOK Guide 7th Edition
+https://ibimone.com/PMBOK%207th%20
+Edition%20(iBIMOne.com).pdf
+Project Management Template https://bit.ai/templates/projectmanagement-
+template
+MdU/FLA402 00_014.1R_Project Management Plan 2024-10-13/AI
+10
+MdU/FLA402 00_003.1R_Configuration Management Plan 2024-10-09/GF
+1
+Mälardalens University
+School of Innovation Design and Engineering
+Västerås, Sweden
+__________________________________________________________________________
+Project Course in Dependable Systems: FLA402, 2024ht
+__________________________________________________________________________
+Configuration Management Plan
+__________________________________________________________________________
+Westermo, Virtual Thermal Prototype
+__________________________________________________________________________
+Version: 1
+2024-10-08
+Author(s) Responsibility Email:
+Göran Forsström Configuration Manager gfm10001@student.mdu.se
+gu1
+Page: 11
+Number: 1 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-21 11:40:44
+The Configuration Management plan is very precise and its content is appropriate. ++ the clauses from the IEC
+61508-1 standard concerning the configuration management. This shows that you have used the standard as
+base to define the process. Very good!
+MdU/FLA402 00_003.1R_Configuration Management Plan 2024-10-09/GF
+2
+Overview ................................................................................................................ 3
+Introduction......................................................................................................... 3
+Approvals ............................................................................................................ 3
+Revision History ................................................................................................... 3
+Abbreviations ...................................................................................................... 3
+Configuration management plan .............................................................................. 4
+Resources ........................................................................................................... 4
+Objective ............................................................................................................. 4
+Scope ................................................................................................................. 4
+Limitations .......................................................................................................... 4
+Toolset/Techniques Implementation ........................................................................ 4
+Reasoning ........................................................................................................... 4
+Usage – documents .............................................................................................. 5
+Usage – none documents (SW, Models) ................................................................. 6
+Output Documents - Project Report....................................................................... 7
+Baselines ............................................................................................................ 7
+Change Control Board .......................................................................................... 7
+Issue Tracking ...................................................................................................... 8
+CM Audits ............................................................................................................ 8
+Continuous Improvement ..................................................................................... 8
+Standards/References ............................................................................................. 8
+Standards ............................................................................................................ 9
+References .......................................................................................................... 9
+MdU/FLA402 00_003.1R_Configuration Management Plan 2024-10-09/GF
+3
+Overview
+Introduction
+Approvals
+Name Position Version Date
+Sebastian Daag Quality Manager 003.1 TBA
+Revision History
+Name Version Date Change/Notes
+Göran
+Forsström
+00_003.W1 2024-09-23 Introduced
+Göran
+Forsström
+00_003.R1 2024-10-13 Ready for review
+Abbreviations
+BNF Backus–Naur form
+CCB Change Control Board
+CE Chief Engineer
+CI Configuration Item
+CM Configuration Manager
+DMS Document Management System
+Nr Number
+QM Quality Manager
+SM Safety Manager
+TBA To Be Amended
+MdU/FLA402 00_003.1R_Configuration Management Plan 2024-10-09/GF
+4
+Configurationmanagement plan
+Resources
+Personnel 1 person, 50% (the CM)
+Storage Teams-Files storage estimated 20 documents á 3 releases à 10 MB
+max = 600 MB disk space.
+GitHub TBA
+Training Lecture on CM – 1 hour, to be scheduled when the CM plan has been
+released.
+Objective
+The task of the CM is to provide rules of versioning and storage of CI:s.
+Relevant aspects in IEC 61508-1 that need to be satisfied:
+5.2.9 The documents or set of information shall have a revision index (version numbers) to
+make it possible to identify different versions of the document.
+5.2.10 The documents or set of information shall be so structured as to make it possible to
+search for relevant information. It shall be possible to identify the latest revision (version)
+of a document or set of information.
+5.2.11 All relevant documents shall be revised, amended, reviewed and approved under an
+appropriate document control scheme.
+NOTE Where automatic or semi-automatic tools are used for the production of documentation, specific
+procedures may be necessary to ensure effective measures are in place for the management of versions or
+other control aspects of the documents
+Scope
+Limitations
+Currently no knowledge of required size for storage of code/models is defined.
+Toolset/Techniques Implementation
+Reasoning
+As no DMS is available for the students in course FLA402, the functions of such a
+system are emulated by specifying a workflow that the project members are required to
+follow in order to guarantee compliance with IEC 61508-1.
+rev
+he do
+1
+Page: 14
+Number: 1 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-15 07:41:29
+This is very nice!
+MdU/FLA402 00_003.1R_Configuration Management Plan 2024-10-09/GF
+5
+The reason for the somewhat cumbersome procedure is that only the plain file system
+in Teams is used as document repository, but anyhow the required traceability of all
+CI:s needs to be fulfilled.
+The Revision History section must be created manually as no DMS is available.
+Usage – documents
+Storage All documents are stored in MdU Teams-Files, project FLA402, where
+the underlying implementation in SharePoint guarantees backup of
+older versions.
+Teams-Files path: Documents > General > Document Repository
+All documents are stored in a linear structure as native MS Officefiles,
+useful directly in the Teams tools, i.e. no sub directories are
+used for categorisation.
+Documents that have been replaced by a new version are moved to a
+sub folder “Old Versions”.
+Documents that are not any more required are moved to sub folder
+“Discarded Versions.
+Identification Each document has a unique file name using syntax described in BNF
+below:
+<document id> ::= <class nr>_<unique id nr>.<version
+nr><state>_<title>.<file extension>
+Where
+<class nr> ::= 00…99 – a class number assigned for this class of
+documents, i.e. 00 = administrative documents, such as this CM
+Plan. For a list of classes, see 00_001.1W_Dokumentidentifiering!
+<unique id nr> ::= 000..999, unique all over the set of documents, i.e.
+the project will be limited to 1000 documents.
+<version nr> ::= 1..999, i.e. max 999 versions of any document.
+<state> ::= W| R | A - see note below!
+<title> :: = <free text but required to be an allowed file name>
+<file extension> := < as defined in Office, e.g. docx etc>
+State A document may be in any of these states:
+W = under Work, i.e. can be changed at any time.
+R = in Review, must not be changed once it got this state.
+A = Approved, typically by the QM, such a file must not be modified,
+if any changed is required, the version number must be incremented.
+NB: For the review process, see 00_012.1W_Review Record Template
+01 0_
+Page: 15
+Number: 1 Author: Luciana Provenzano Subject: Comment on Text Date: 2024-10-15 07:44:39
+where can I find this ...document?
+MdU/FLA402 00_003.1R_Configuration Management Plan 2024-10-09/GF
+6
+Revision
+History
+Each document must have a section at the end that details the
+changes made in an updated version.
+Recommended fields:
+1. Date of change
+2. Version id
+3. Author name
+4. document.
+For Word documents: use a simple table at the beginning of the
+document.
+For Excel documents: add a left-most tab with a plain text table.
+Example of file name:
+00_003.1W_Configuration Management Plan.docx
+Usage – none documents (SW, Models)
+Storage All SW/Models are stored in GitHub:
+Identification The file names of individual SW/Model files are defined by the
+developer.
+A File Header (see ) is placed as comments (here symbolised with a
+“%”) at the top of each file:
+% <Oneline file description>
+%
+% Description:
+% < multi line description>
+% Author: <name of author(s)
+%
+% History: (latest first)
+% YYYY-MM-DD/<initials of author>: <description
+of current change>
+Change Note – typically reference to Impact Analyses
+document
+1
+Page: 16
+Number: 1 Author: Luciana Provenzano Subject: Comment on Text Date: 2024-10-15 07:50:29
+good!
+MdU/FLA402 00_003.1R_Configuration Management Plan 2024-10-09/GF
+7
+State A deliverable is preset with a version text, typically displayed together
+with the date when the application starts.
+<version> ::= <major version>.<minor version>/<error correction
+version>
+where
+<major version> ::= <number 0..999, where 0 indicates not released
+The major version is incremented at major change , typically a none
+compatible change>
+<minor version> ::= <number 0..999, is incremented at a minor
+change, typically a compatible change. Is reset to 0 when the major
+version changes>
+<error correction version> ::= <number 0..999, is incremented when
+errors are corrected that do not change the intended function of the
+application, Is reset to 0 when major or minor version is changed>
+Revision
+History
+See history section in the file header above!
+Example of displayed version information:
+Version 1.4/2 of 2024-10-09
+Output Documents - Project Report
+Baselines
+A document baseline consists of all Approved (status A) documents in the repository
+first level, as the document repository at each point in time will be a set of documents
+that belong to the project. Any requirement for a baseline list can be accomplished by
+listing all approved documents in the document repository first level, thus there is no
+need to keep a manually updated list of the baselines.
+A single baseline is expected, it will be created when the project is finished.
+Change Control Board
+Any change to an approved document must be requested by a formal Change Request
+to the Change Control Board that consists of:
+The CM
+MdU/FLA402 00_003.1R_Configuration Management Plan 2024-10-09/GF
+8
+The QM
+The SM
+The CE
+Before a change request is accepted an Impact Analyses must be undertaken, i.e. an
+investigation into the effects on the project if the change is implemented.
+Issue Tracking
+A change to an approved document requires the rising of an Issue. And consequently,
+an Impact Analyses of what would be the effect of handling the found issue. This is a
+document stored in the Teams-Files path: Documents > General > Issue Repository
+Each issue is created in a separate document named:
+<Issue document file name> ::= <issue number>.<version><status>_<issue
+name>.docx
+where
+<issue number> ::= <unique 0001...9999>
+<version> ::= <1..999>
+<status> ::= W|R |A|C (for Working, Review, Approved, Closed)
+<issue name> ::= <free text – but must be usable as file name>
+Contents of issue document – see 19_016.1W_Impact Analyses template!
+When the IA generated by the IR has been handled the Change Request table in the IA
+will be updated to indicate what changes that are required.
+CM Audits
+The project owner is invited to audit the Configuration Management at any time during
+the project.
+Continuous Improvement
+All project members are encouraged to share their views on how the CM process can be
+improved during the project.
+Standards/References
+List of standards and references used to build the boundaries of the management plan
+1 template
+Page: 18
+Number: 1 Author: Luciana Provenzano Subject: Comment on Text Date: 2024-10-15 07:53:05
+where can I find this document?
+MdU/FLA402 00_003.1R_Configuration Management Plan 2024-10-09/GF
+9
+Standards
+IEC 61508 Functional Safety of Electrical/Electronic/Programmable Electronic
+Safety-related Systems (E/E/PE, or E/E/PES)
+References
+00_012.1 Review Record Template
+00_001.1 Dokumentidentifiering
+19_016.1 Impact Analyses template
+Empty Page
+MdU/FLA402 00_004.1R_Quality Management Plan 2024-10-13/SD
+1
+Mälardalens University
+School of Innovation Design and Engineering
+Västerås, Sweden
+_________________________________________________________________________________
+Project Course in Dependable Systems: FLA402, 2024ht
+_________________________________________________________________________________
+Quality Management Plan
+_________________________________________________________________________________
+Westermo, Virtual Thermal Prototype
+_________________________________________________________________________________
+Version: 1
+2024-10-13
+Authors Responsibility Email:
+Sebastian QualityManager sdg20001@student.mdu.se 1
+Page: 21
+Number: 1 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-15 07:54:27
+you forgot your surname.!
+MdU/FLA402 00_004.1R_Quality Management Plan 2024-10-13/SD
+2
+Document Overview ................................................................................................................................ 3
+Introduction ......................................................................................................................................... 3
+Approvals ............................................................................................................................................. 3
+Revision History ................................................................................................................................... 3
+Abbreviations ....................................................................................................................................... 3
+Management Plan Description ................................................................................................................ 3
+Objective .............................................................................................................................................. 3
+Scope/Limitations ................................................................................................................................ 3
+Toolset/Techniques Implementation ...................................................................................................... 4
+Reasoning ............................................................................................................................................. 4
+Usage ................................................................................................................................................... 4
+Quality Objectives .................................................................................................................................... 4
+Quality Assurance Process ....................................................................................................................... 4
+Design Control ..................................................................................................................................... 4
+Document Control ............................................................................................................................... 5
+Quality Management ........................................................................................................................... 5
+Testing and Validation ......................................................................................................................... 5
+Non-Conformance Management ......................................................................................................... 6
+Standards/References ............................................................................................................................. 6
+Standards ............................................................................................................................................. 6
+MdU/FLA402 00_004.1R_Quality Management Plan 2024-10-13/SD
+3
+Document Overview
+Introduction
+This QMP outlines the framework to ensure high-quality standards throughout the development of
+the project. It encompasses all phases of the product lifecycle, from conceptual design to final
+delivery, ensuring adherence to regulatory standards of IEC 61508-1:2010. Achieving the highest
+levels of performance, safety, and reliability. By focusing on quality assessment at both the product
+and project levels, this QMP aims to enhance efficiency, accountability, and compliance, ensuring a
+successful and reliable product outcome.
+Approvals
+Name Position Version Date
+Sebastian Daag
+Quality Manager 004.1 2024/10/13
+Revision History
+Name Version Date Changes/Notes
+Sebastian Daag 004.1 2024/10/13 First draft
+Abbreviations
+QMP Quality Management Plan
+Management Plan Description
+Objective
+The objective of this QMP is to provide a structured approach to ensure that the project meets
+stringent quality, safety, and reliability standards. It aims to integrate quality assessment into every
+phase of the project, from planning and virtual prototyping to testing and final product validation.
+This plan is designed to support both the technical quality of the product, and the project
+management practices, ensuring efficient execution, full compliance with standards, and successful
+project outcomes.
+Scope/Limitations
+This QMP applies to the quality assurance of the entire project, addressing both the technical and
+managerial aspects. Key areas of focus include:
+Not
+S1 ebastian 2
+Page: 23
+Number: 1 Author: Luciana Provenzano Subject: Comment on Text Date: 2024-10-16 15:13:04
+did you approve your own plan? is it correct?
+Number: 2 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-15 08:04:25
+From the revision history, it seems like this plan has been "released" without any review. But, there is a review
+record that shows that a review has been done. The review record should be used to justify the content of the
+release in the column "Changes/Notes" of the revision history. This also means that the released version of the
+document for the INL (the formal gate) should not be draft but a first approved version.
+MdU/FLA402 00_004.1R_Quality Management Plan 2024-10-13/SD
+4
+Quality
+Assurance in
+Project Execution
+Establishing controls for ensuring that all project phases, from planning to
+deployment, follow best practices in documentation, responsibility
+delegation, and progress tracking.
+Virtual Prototype
+Development
+Defining quality requirements for the design, simulation, testing, and
+validation of the virtual prototype to ensure it accurately reflects real-world
+performance and safety standards.
+Testing and
+Validation
+Implementing structured testing and validation procedures to confirm that
+the virtual prototype and the final product meet the specified performance,
+safety, and compliance requirements.
+Traceability and
+Documentation
+Ensuring full traceability of design changes, testing results, and decisionmaking
+processes to support quality assurance, regulatory compliance, and
+continuous improvement.
+Compliance and
+Certification
+Ensuring that the product adheres to relevant quality standards, including IEC
+61508-1:2010, and that necessary certifications are obtained.
+This QMP will be reviewed and updated regularly to reflect evolving project needs, regulatory
+updates, and ongoing risk assessments, ensuring the continuous delivery of a high-quality product
+and project outcome.
+Toolset/Techniques Implementation
+Reasoning
+N/A
+Usage
+N/A
+Quality Objectives
+The quality objectives are set to ensure that the product meets the highest standards throughout its
+lifecycle. These objectives focus on ensuring that the product consistently delivers optimal
+performance, safety, and reliability.
+Quality Assurance Process
+The Quality Assurance Process ensures that the project meets the defined quality, safety, and
+performance standards throughout its development and lifecycle process. This is achieved through
+the following phases:
+Design Control
+Design
+Requirements
+All process designs must meet specific requirements and align with regulatory
+standards such as IEC 61508-1:2010. This includes ensuring safety,
+performance, and operational functionality through a formalized design review
+process.
+MdU/FLA402 00_004.1R_Quality Management Plan 2024-10-13/SD
+5
+Failure Mode
+and Effects
+Analysis
+(FMEA)
+FMEA will be conducted during the design phase to identify and mitigate
+potential risks. This proactive approach ensures that potential failure points are
+addressed early in the development process.
+Document Control
+Document
+Management
+All project documents (e.g., technical drawings, design specifications, test
+reports) will be created, stored, and maintained following standard procedures.
+Revisions will be controlled, and changes will be traceable to ensure consistency
+and accuracy.
+Review and
+Approval
+Every document related to the project will undergo a formal review process. The
+review ensures compliance with established standards, and only authorized
+personnel can approve the final versions. Documentation will support traceability
+throughout the project.
+Full Lifecycle
+Traceability
+All processes, testing, and quality control activities will be documented to ensure
+traceability from the design phase to the end of the process lifecycle. This
+includes detailed records of test results, inspection reports, calibration records,
+and corrective actions.
+Change
+Management
+Any design or process changes will be documented and traceable, ensuring that
+all modifications are aligned with project goals and quality standards.
+Quality Management
+In-Process
+Inspection
+Ongoing inspections will be carried out throughout the process to ensure that
+quality is maintained at each stage.
+Final Inspection A comprehensive inspection will be conducted on the completed process to
+verify compliance with all specifications and quality standards before
+finalizations.
+Performance
+Monitoring
+After deployment, the performance of the process will be continually
+monitored to ensure long-term reliability. Data will be collected on uptime,
+fault occurrences, and operational efficiency.
+Testing and Validation
+Environmental
+Testing
+The process/product will undergo environmental testing to ensure it can
+perform under conditions such as extreme temperatures, etc. This ensures
+reliability across real-world operating environments.
+Functional
+Testing
+Functional tests will be conducted to ensure the product operates correctly
+under various scenarios. This testing guarantees that the product performs
+robustly in both normal and adverse conditions.
+Performance
+Validation
+Validation tests will verify that the product meets specified performance
+metrics, including throughput, latency, and efficiency. The goal is to ensure that
+the product satisfies all functional and operational requirements.
+MdU/FLA402 00_004.1R_Quality Management Plan 2024-10-13/SD
+6
+Non-Conformance Management
+In the event of non-conformity, the following steps will be followed:
+Identification Non-conformities will be identified and documented during any phase of the
+project. This includes deviations in material, product performance, or process.
+Corrective
+Action
+A root cause analysis will be conducted for each non-conformance to determine
+the cause, and corrective actions will be implemented to prevent recurrence.
+Verification After corrective actions, additional tests or inspections will be conducted to
+ensure that the issue has been resolved effectively.
+Standards/References
+List of standards and references used to build the boundaries of the management plan
+Standards
+IEC 61508-1-2010 Functional safety of electrical/electronic/programmable electronic safetyrelated
+systems – Part 1: General requirements
+References
+N/A
+MdU/FLA402 00_005.1R_Validation and Verification and Plan 2024-10-13/SD
+1
+Mälardalens University
+School of Innovation Design and Engineering
+Västerås, Sweden
+_________________________________________________________________________________
+Project Course in Dependable Systems: FLA402, 2024ht
+___________________________________________________________________________
+Validation and Verification Plan
+___________________________________________________________________________
+Westermo, Virtual Thermal Prototype
+___________________________________________________________________________
+Version: 1
+2024-10-09
+Authors Responsibility Email:
+Göran Forsström V & V Manager gfm10001@student.mdu.se
+1
+Page: 27
+Number: 1 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-21 11:42:26
+(from Johan) I find the plan to be well written and motivated for the current stage. I expect there will be more
+details into the specific tests in the future, but overall the plan is adequate.
+MdU/FLA402 00_005.1R_Validation and Verification and Plan 2024-10-13/SD
+2
+Document Overview ................................................................................................ 3
+Approvals ............................................................................................................ 3
+Revision History ................................................................................................... 3
+Abbreviations ...................................................................................................... 3
+Verification and Validation Plan ................................................................................ 3
+Objective ............................................................................................................. 3
+Scope/Limitations ................................................................................................ 4
+Planning/Process/Approach ................................................................................. 4
+Test Description (TD, 20_xxx,y) ........................................................................... 4
+Test Record (TR, 21_xxx.y.w) .............................................................................. 5
+Toolset/Techniques Implementation ........................................................................ 5
+Traceability Matrix ................................................................................................ 5
+Reasoning ........................................................................................................... 5
+Usage.................................................................................................................. 5
+Content Specifics to management type .................................................................... 5
+Standards/References ............................................................................................. 6
+Standards ............................................................................................................ 6
+References .......................................................................................................... 6
+MdU/FLA402 00_005.1R_Validation and Verification and Plan 2024-10-13/SD
+3
+Document Overview
+The Validation and Verification Plan defines how the test shall be documented and the
+results recorded.
+Approvals
+Name Position Version Date
+Sebastian Daag QM 005.1 TBA
+Revision History
+Name Version Date Changes/Notes
+Göran
+Forsström
+00_005.1W 2024-10-07 Introduced
+Göran
+Forsström
+00_005.1R 2024-10-13 Ready for Review
+Abbreviations
+CCB Change Control Board
+CE Chief Engineer
+Nr Number
+IA Impact Analyses
+QM Quality Manager
+SM Safety Manager
+TBA To Be Amended
+TD Test Description
+TR Test Record
+Verification and Validation Plan
+Objective
+This plan shall describe how the project requirements are checked to be fulfilled: For
+each requirement there shall be one or more tests that can be used to show that the
+specified requirement is fulfilled.
+MdU/FLA402 00_005.1R_Validation and Verification and Plan 2024-10-13/SD
+4
+The document shall fulfill the relevant requirements listed in IEC 61508-1.
+Scope/Limitations
+Valid for the whole project duration and for all project members-
+The V & V Manager is responsible for this document.
+Planning/Process/Approach
+Two types of documents are to be created:
+1. Test Description Document (TD, 20_xxx.y)
+2. Test Record Document (TR, 21_xxx.y.w) NB: Double versions numbers!
+NB: The first TR will have the same id number (xxx.y.1) as the corresponding TD, at
+multiple tests on the same TD-version, the second version number (w) of the TR is
+incremented.
+Test Description (TD, 20_xxx,y)
+This document is a list of all tests to be undertaken, it must contain enough detailed
+information on each test so that someone else can repeat the test. The TD must be in
+an approved state before any formal tests can be performed. Note that a single TD need
+not cover all functionality, multiple TD:s covering different areas of the requirements
+can be used to allow parallel tests to be executed.
+Example of details required:
+?? TD document id and version
+?? Id of used SW/Modell.
+?? Designations of equipment required during the test, both
+apparatuses used to perform the test and any measuring
+equipment.
+?? Any specific requirements on the test person(s), e.g. a person
+licensed to use high power equipment.
+?? Each listed test must have a Unique Test Id / Number and a
+reference to the applicable requirement identifier.
+?? Explicit instructions on how to perform the test and how to
+measure the results.
+The TD is reviewed as any other document and approved by the Quality Manager, at the
+review meeting the V&V manager and the Chief Engineer are mandatory reviewers.
+MdU/FLA402 00_005.1R_Validation and Verification and Plan 2024-10-13/SD
+5
+At retests a subset of the TD can be defined at the CCB to limit the amount of re-testing
+undertaken. As the same TR is used as template at retests, not performed test must be
+marked with “No Test”. The re-test is decided by the CCB in the IA.
+Test Record (TR, 21_xxx.y.w)
+This document is a list of the results of all tests executed, example of details required:
+?? TR document id
+?? TR Author
+?? Date of Test.
+?? Location of Test.
+?? Name(s) of test person(s).
+?? TD document id.
+?? Id and Version of used SW/Modell.
+?? Name and Version of used equipment during the test, both
+apparatuses used to perform the test and any measuring
+equipment.
+?? The test results are listed for each Test Id in the TD.
+?? Test Summary Result:
+?? OK | OK with remarks | FAIL
+The TR is approved by the V&V Manager. Note that an approved TR does not mean that
+all tests are successful, this is signalled in the Test Summary Result, thus also failed
+tests are stored in an approved TR.
+Toolset/Techniques Implementation
+Traceability Matrix
+Reasoning
+In order to validate that all requirements have been satisfied all TR:s must be examined
+and verified to have successfully results for all requirements, i.e. a cross reference from
+the contents of each test in each TR to the list of requirements so any missing test is
+noticed.
+Usage
+If the TR:s and the Requirement Specification is designed to follow predefined
+structures, it would be reasonable to create an Excel sheet with macroes that can
+extract this information and present it in a useful format. Of course, the work to create
+this tool must be balanced with the work to create this cross reference manually.
+Content Specifics to management type
+N/A
+MdU/FLA402 00_005.1R_Validation and Verification and Plan 2024-10-13/SD
+6
+Standards/References
+Standards
+IEC 61508 Functional Safety of Electrical/Electronic/Programmable Electronic
+Safety-related Systems (E/E/PE, or E/E/PES)
+References
+00_012.1 Review Record Template
+00_001.1 Dokumentidentifiering
+20_015.1 Test Description/Record template
+19_016.1 Impact Analyses template
+00_006.1 Requirement Management Plan
+MdU/FLA402 00_013.1R_Requirement Management Plan 2024-10-13/DL
+1
+Mälardalens University
+School of Innovation Design and Engineering
+Västerås, Sweden
+__________________________________________________________________________
+Project Course in Dependable Systems: FLA402, 2024ht
+___________________________________________________________________________
+Requirement Management Plan
+___________________________________________________________________________
+Westermo, Virtual Thermal Prototype
+___________________________________________________________________________
+Version: 1
+2024-10-09
+Authors Responsibility Email:
+David Vaca Landeta RE Manager dva18001@student.mdu.se
+1
+Page: 33
+Number: 1 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-21 11:43:46
+The plan includes important subjects to manage requirements. However, there are parts that need to be
+improved. The syntax to write the requirements is missed, how to achieve good quality requirements too.
+These are two issues that need to be fixed before starting working with the requirements.
+MdU/FLA402 00_013.1R_Requirement Management Plan 2024-10-13/DL
+2
+Document Overview ................................................................................................ 3
+Introduction......................................................................................................... 3
+Approvals ............................................................................................................ 3
+Revision History ................................................................................................... 3
+Abbreviations ...................................................................................................... 3
+Management Plan Description ................................................................................. 3
+Objective ............................................................................................................. 3
+Scope ................................................................................................................. 4
+Standards ............................................................................................................ 4
+Stakeholder boundaries ....................................................................................... 4
+Process ............................................................................................................... 4
+Approach ............................................................................................................ 5
+Elicitation approach .......................................................................................... 5
+Specification Approach ..................................................................................... 6
+Traceability Matrix.......................................................................................... 6
+Review approach .............................................................................................. 7
+Verification and Validation approach .................................................................. 7
+Modification approach ...................................................................................... 7
+Toolset/Techniques and Reasoning .......................................................................... 8
+Standards/References ............................................................................................. 9
+Standards ............................................................................................................ 9
+References .......................................................................................................... 9
+MdU/FLA402 00_013.1R_Requirement Management Plan 2024-10-13/DL
+3
+Document Overview
+Introduction
+Acquiring well defined requirements for a product is essential to ensure safety, quality
+of product development, particularly during the early stages, where virtual prototypes
+physical prototypes. When properly elicited, these requirements guide the design and
+development of the mentioned prototypes, including details such as temperature
+limits, thresholds, and other critical parameters. Therefore, this document focuses on
+the plan for managing requirements, aiming to obtain high quality and valuable
+requirements that support the product development.
+Approvals
+Name Position Version Date
+Sebastian Daag QM Manager 013.1 TBA
+Revision History
+Name Version Date Changes/Notes
+David Vaca
+Landeta
+013.1R 2024-10-13 Introduced
+Abbreviations
+RMP Requirement Management Plan
+TM Traceability Matrix
+V&V Verification and Validation
+Management Plan Description
+Objective
+The objective of the requirement management plan (RMP) is to provide information on
+how to capture, document and validate requirements for product. The plan
+furnishes
+the processes to manage requirements as well as the methodologies used in
+each activity such as the requirements changes, elicitation, specification and more.
+Further, this document outlines the roles of other project managers in the modification
+and the fulfilment of stakeholder needs. Requirements play a critical role in each stage
+are used to test design concepts. These prototypes help identify potential issues early,
+providing features such as saving time and reducing the amount of work in creating
+a specific product
+elicitation
+1
+2
+3
+4
+5
+Page: 35
+Number: 1 Author: Luciana Provenzano Subject: Comment on Text Date: 2024-10-16 15:11:19
+This text seems a little bit generic. It is good that you talk about the prototypes, which is the aim of your
+project. However, you should explicitly mention the project's aim.
+Number: 2 Author: Luciana Provenzano Subject: Comment on Text Date: 2024-10-16 15:11:41
+what does it mean "introduced"?
+Number: 3 Author: Luciana Provenzano Subject: Comment on Text Date: 2024-10-16 15:15:53
+for a specific product OR for the thermal ... prototypes for Westermo? be more specific to your project since
+this is not a generic requirements management plan but the plan for Westermo's thermal prototype.
+Number: 4 Author: Luciana Provenzano Subject: Comment on Text Date: 2024-10-16 15:16:13
+provides, describes.... better
+Number: 5 Author: Luciana Provenzano Subject: Comment on Text Date: 2024-10-16 15:16:51
+requirements changes come after specification.
+MdU/FLA402 00_013.1R_Requirement Management Plan 2024-10-13/DL
+4
+and implementation of requirements. Keymanagers involved include the Validation and Safety managers.
+Scope
+The scope is to improve the early stage of the Viper-208-T4G-TB development by
+establishing a structured plan for each requirement process, ensuring quality
+requirements, which are essential for an optimal virtual prototype and its validation.
+Validating a good virtual protype reduces the need for creating and developing several
+physical prototypes which subsequently recused time and money.
+Standards
+The requirements management plan is based on IEC 61508-1, ISO/IEC/ IEEE 29148 and
+their included processes. The standards are applied not only to ensure that the
+appropriate procedures are followed to maintain consistency and quality in the
+requirements, but also to meet the stakeholder needs and achieve functional safety in
+the Viper-208-T4G-TB. Further, since the product operates within a train, the RMP is
+developed by considering the railway standard, BS EN 50155.
+Stakeholder boundaries
+In this context, the stakeholder, Westermo, necessitates valuable insights into virtual
+prototyping. Additionally, the stakeholder has expressed a need for further investigation
+into the heat emissions of the product. Therefore, the requirements management plan
+is based on this aspect, relevant parameters concerning heat
+emissions are comprehensively addressed in the virtual prototype, by the use of
+models, tools and techniques provided in the plan.
+Process
+The process to manage quality and beneficial requirements is derived into several
+steps, including requirements specification, elicitation, review, modification, validation
+and verification. Important to acknowledge is that the entire process is carefully
+considered in order to obtain valuable requirements regarding heat emission and the
+product as whole.
+quality,
+Quality,
+Westermo
+ensuring that all
+1
+2
+3
+Page: 36
+Number: 1 Author: Luciana Provenzano Subject: Comment on Text Date: 2024-10-16 15:17:26
+quality, Quality: repeated twice
+Number: 2 Author: Luciana Provenzano Subject: Comment on Text Date: 2024-10-16 15:19:49
+is Westermo the only stakeholder?
+Number: 3 Author: Luciana Provenzano Subject: Comment on Text Date: 2024-10-16 15:21:59
+here you could write something like that: ensuring that all requirements that capture the relevant parameters
+and behaviour concerning the heat emissions are correctly managed in order for the prototype to be as much
+accurate as possible.
+MdU/FLA402 00_013.1R_Requirement Management Plan 2024-10-13/DL
+5
+Requirements Management Process
+Approach
+This section focuses on the approaches within the requirements activities. It covers a
+detailed overview of how each stage is carried out in order to obtain the valuable
+requirements for the product.
+Elicitation approach
+In the elicitation phase, the stakeholders are fundamental since they provide
+information of what to focus on and what the expects
+are. Gathering their needs is
+crucial in terms of capturing beneficial requirements for the product. In this context, the
+stakeholder’s needs pertain to the heat emission of the product, requiring the
+identification and collection of various types of requirements to ensure an optimal
+product design that manages heat effectively. The types are the following:
+?? Standard Requirements: Requirements provided directly or indirectly by related
+standards.
+?? Safety Requirements: The safety requirements are derived by different safety
+assessments provided in the safety management plan.
+?? Interface Requirements: The requirements concerning how the product and its
+heat shall perform in a specified environment. Derived by understanding of the
+specific application and its thermal capabilities as well as using modelling tools.
+?? Internal Requirements: Requirements created by the project team to ensure
+the further development of the heat aspect.
+?? Performance Requirements: Requirements extracted by the use of models and
+simulations.
+Figure 1:
+phase
+Requirements
+1
+2
+3
+4
+5
+6
+Page: 37
+Number: 1 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-16 15:37:39
+how is the requirements management plan the input for standards and stakeholder's needs? Add explanation
+in the text (refer to the next comment).
+Number: 2 Author: Luciana Provenzano Subject: Comment on Text Date: 2024-10-16 15:24:28
+Introduce this figure in the text. For example, you can say: The process that is applied to manage the
+requirements within this project is depicted in figure1, by providing additional explanation that helps the
+reader to understand the idea.
+Number: 3 Author: Luciana Provenzano Subject: Comment on Text Date: 2024-10-16 15:27:26
+It is good to align the activities with the figure. For example, in Figure 1 you talk about Requirements
+Elicitation. Here, you should say "in the Requirements Elicitation" phase (Figure 1)..."
+Number: 4 Author: Luciana Provenzano Subject: Comment on Text Date: 2024-10-16 15:27:54
+goals or needs.
+Number: 5 Author: Luciana Provenzano Subject: Comment on Text Date: 2024-10-16 15:31:27
+do you have a context diagram where one can see the main external systems of your product?
+Number: 6 Author: Luciana Provenzano Subject: Comment on Text Date: 2024-10-16 15:31:59
+?
+MdU/FLA402 00_013.1R_Requirement Management Plan 2024-10-13/DL
+6
+?? Reliability Requirements: To obtain continuous and optimal heat dissipation
+from the product, reliability requirements are created. The requirements are
+extracted from simulations and scenarios.
+Specification Approach
+Important in the specification phase is to categorize the requirements, which is
+accomplished by utilizing the types mentioned earlier. Another crucial step is to
+assemble the needed attributes within each requirement in order to obtain a complete
+and well-structured specification. The attributes are the following:
+?? Identification: A unique ID and name to be able to identify the requirements in
+the document. The diverse IDs are in the form of Req-XXX, where X is the number
+of the requirement.
+?? Priority & Importance: Crucial attributes in terms of understanding which
+requirements needs to be addressed first. The priority is specified with key
+words such as Mandatory, Optional and Desirable. As for the Importance, the
+requirements include numbers between 1 to 3, with 3 describing that the
+requirement is of high importance.
+?? Version: To ensure that modifications within the requirements (if approved) are
+considered. The versions are listed with different numbers, with the first being 1,
+then 2, 3 etc.
+?? Review Status: Provides information whether the requirement has been
+reviewed or not. The status is defined by the words to be reviewed, accepted and
+rejected.
+?? V&V Status: Describes the phase of the verification and validation in the
+requirements. The status is defined by pending, pass and failed.
+?? Source: The source identifies the foundation of the requirements, which may
+originate from stakeholders, relevant standards, or the project team.
+?? Identification Date: The date in which a requirement is identified.
+Once the attributes are collected, the requirements are documented in
+table form, with
+the use of various tools.
+Traceability Matrix
+Similar to the requirements specification table, the Traceability Matrix (TM)
+incorporates various attributes to optimize and enable tracing to a related requirement,
+Requirements
+ateg
+ifica
+too
+d 1
+2
+3
+4
+5
+Page: 38
+Number: 1 Author: Luciana Provenzano Subject: Comment on Text Date: 2024-10-16 15:36:01
+can you find requirements from the standards that concern the reliability of such products?
+Number: 2 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-16 15:38:53
+what about specify the requirements? which syntax are you going to use? what about ensuring the
+requirements quality?
+Number: 3 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-16 15:42:27
+why is this attribute important? to be explained.
+Number: 4 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-16 15:43:23
+do you foresee a structure of the requirements specification document?
+Number: 5 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-16 15:42:51
+which tools?
+MdU/FLA402 00_013.1R_Requirement Management Plan 2024-10-13/DL
+7
+particularly in the event of modifications. The following TM provides an illustration of
+the diverse attributes included.
+ID Unique ID
+Requirement
+Description
+Description of the requirement.
+Source The foundation of the requirement. E.g. Stakeholder,
+Standards etc.
+Derived From Specifies the high-level requirement.
+Type Type of the requirement. E.g. Safety or performance
+requirement.
+Priority The priority of the requirement. Described in numbers.
+Document
+Specification
+The document in which the requirement is specified.
+Review Status Review Status.
+V&V Status Verification and Validation Status.
+Comments To describe further information related to the
+requirement.
+Review approach
+To ensure that the requirements are specified with the highest level of quality, a formal
+review is essential. The review is conducted using structured methodologies, including
+analyzing aspects of the requirements, such as redundancy, singularity, clarity
+unambiguous etc. Further, this phase is overseen by the project’s Quality Manager, who
+ensures that the requirements comply with the relevant standards and procedures
+outlined in the Quality Management Plan.
+Verification and Validation approach
+Similar to the review, the Verification and Validation (V&V) phase for requirements is
+overseen by the V&V Manager, who ensures that the requirements are accurately
+written to reflect stakeholder needs and provides a clear approach for their verification.
+This by the use of the V&V Management Plan and its related standards.
+Modification approach
+To be able to modify a requirement and ensure its acceptance, a defined process is
+required. The following figure outlines the steps and actions necessary for managing a
+modification.
+ment
+on
+wit
+sing
+pha
+V
+requ
+ure
+1
+2
+3
+4
+5
+Page: 39
+Number: 1 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-16 15:48:54
+why is this field just part of the traceability matrix and not of the requirements specification itself? but,
+especially, why is there a difference between requirements table and traceability matrix? to be explained!
+Also, duplicate the same information twice (e.g., priority, source, etc.) is error-prone and should be avoided.
+Number: 2 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-16 15:51:42
+You must define a strategy to write high-quality requirements using the same standards that the quality
+manager will use to check the requirements. Indeed, if you do not set a strategy to write good quality
+requirements, you will not get good quality requirements, which means that you must re-iterate the review
+process many times before achieving quality.
+Number: 3 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-16 15:52:42
+You must also specify when the review is done. You have an attribute for making a requirement ready for
+review.
+Number: 4 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-16 15:57:05
+how will requirements be validated? by testing? by simulation? which requirements will undergo the
+validation? to be explained. When pointing to another plan, as in this case, you must add the precise section
+(number of page) of the plan (document) where it is said and add a proper reference. References to the other
+project's documents are missing. To be added where necessary in the text ad in section "Standards/
+References".
+Number: 5 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-16 15:57:55
+add the precise reference to the figure.
+MdU/FLA402 00_013.1R_Requirement Management Plan 2024-10-13/DL
+8
+Figure 2: Modification Process
+Toolset/Techniques and Reasoning
+Tools/Techniques Reasoning
+Use Case A modelling tool utilized to analyze the
+functions within a product and derive its
+corresponding requirements. The actors
+are trains subsystems and the operating
+environment.
+Abuse Case Modelling tool that uses inside abusers
+such as the products subsystem to
+identify safety requirements.
+Scenarios Modelling tool to understand how the
+product acts in diverse scenarios with
+e.g. different conditions.
+Excell Used for a well-structured Requirement
+Specification and TM.
+Consensus between managers To analyze, define and modify
+requirements.
+es
+Cas
+1
+2
+Page: 40
+Number: 1 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-16 16:00:14
+Use case, scenario and abuse case are not tool but methods. when are these techniques used? why?
+Number: 2 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-16 16:04:53
+as far as I know the abuse cases are used to identify security requirements. Find a good reference, read it, and
+reference it.
+MdU/FLA402 00_013.1R_Requirement Management Plan 2024-10-13/DL
+9
+Standards/References
+Standards
+IEC 61508-1-2010 Functional safety of electrical/electronic/programmable electronic safetyrelated
+systems – Part 1: General requirements
+ISO/IEC/ IEEE 29148 System and software engineering- Life cycle processes- Requirements
+engineering
+BS EN 50155 Railway applications- Rolling stock – Electronic Equipment
+References
+F
+eren
+1
+2
+Page: 41
+Number: 1 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-16 16:00:53
+Tables must have captions and headers. Always. To be updated.
+Number: 2 Author: Luciana Provenzano Subject: Sticky Note Date: 2024-10-16 16:02:52
+it is not good to have an empty section. Add here the table that includes the references to the other plans
+(refer to one of my previous comments) and other papers that you may need to use to complete this plan. For
+example, add a reference to some papers that introduce the abuse case, the use case, the scenarios, etc.
+Empty Page
+MdU/FLA402 00_007.1R_Safety Management Plan 2024-10-13/SD
+1
+Mälardalens University
+School of Innovation Design and Engineering
+Västerås, Sweden
+_________________________________________________________________________________
+Project Course in Dependable Systems: FLA402, 2024ht
+_________________________________________________________________________________
+Safety Management Plan
+_________________________________________________________________________________
+Westermo, Virtual ThermalPrototype
+_________________________________________________________________________________
+Version: 1
+2024-10-13
+Authors Responsibility Email:
+Sebastian SafetyManager sdg20001@student.mdu.se
+MdU/FLA402 00_007.1R_Safety Management Plan 2024-10-13/SD
+2
+Document Overview ................................................................................................................................ 3
+Introduction ......................................................................................................................................... 3
+Approvals ............................................................................................................................................. 3
+Revision History ................................................................................................................................... 3
+Abbreviations ....................................................................................................................................... 3
+Management Plan Description ................................................................................................................ 3
+Objective .............................................................................................................................................. 3
+Scope/Limitations ................................................................................................................................ 4
+Toolset/Techniques Implementation ...................................................................................................... 4
+Reasoning ............................................................................................................................................. 4
+Usage ................................................................................................................................................... 4
+Safety Management Process (IEC 61508) ................................................................................................ 5
+Concept and Definition ........................................................................................................................ 5
+Hazard and Risk Analysis...................................................................................................................... 5
+Safety Requirements Specification (SRS) ............................................................................................. 6
+Design and Implementation ................................................................................................................ 6
+Verification and Validation (V&V)........................................................................................................ 6
+Operation and Maintenance Planning................................................................................................. 6
+Documentation ........................................................................................................................................ 6
+Standards/References ............................................................................................................................. 7
+Standards ............................................................................................................................................. 7
+MdU/FLA402 00_007.1R_Safety Management Plan 2024-10-13/SD
+3
+Document Overview
+Introduction
+This Safety Management Plan (SMP) defines the safety requirements, procedures, and strategies
+necessary to ensure the safe operation and reliability of the project, with a particular focus on heat
+emission and dissipation. The plan is designed to guide the development of a theoretical functional
+virtual prototype, simulating the product’s thermal behaviour under various operational conditions
+before the creation of a physical prototype. By addressing the risks associated with excessive heat,
+the SMP aims to mitigate potential failure modes.
+This SMP has been developed in compliance with key international safety standards IEC 61508-
+1:2010 and EN 61010-1:2010.
+Approvals
+Name Position Version Date
+Sebastian Daag Quality Manager 007.1 2024/10/13
+Revision History
+Name Version Date Changes/Notes
+Sebastian Daag 007.1 2024/10/13 First draft
+Abbreviations
+SMP Safety Management Plan
+Management Plan Description
+Objective
+The objective of this Safety Management Plan is to establish a framework for a virtual prototype that
+ensures the product operates within its safe thermal limits by systematically addressing heat
+emission and dissipation risks. This SMP will focus on identifying potential heat-related safety
+hazards, defining mitigation strategies, and ensuring compliance with relevant safety standards
+throughout the product’s lifecycle. This plan also aims to facilitate certification processes by
+adhering to the applicable sections of IEC 61508-1 and EN 61010-1 standards.
+MdU/FLA402 00_007.1R_Safety Management Plan 2024-10-13/SD
+4
+Scope/Limitations
+The scope of this Safety Management Plan (SMP) encompasses all phases of the lifecycle of the
+product, including design, development, manufacturing, testing, and operational use. The primary
+focus is on ensuring that the product meets all safety requirements and performs reliably in various
+environments, thereby preventing failures that could compromise system safety or functionality.
+This plan addresses the following key areas:
+Risk Assessment Identifying potential safety hazards that could impact system performance and
+reliability across different operational scenarios.
+Hazard
+Mitigation
+Implementing appropriate control mechanisms and design strategies to
+mitigate identified risks and ensure safe operation throughout the product
+lifecycle.
+Safety
+Verification
+Establishing processes for testing and validating that safety requirements are
+met, including functional and operational safety standards.
+Compliance and
+Certification
+Ensuring that the product adheres to relevant safety standards, including IEC
+61508-1:2010 and EN 61010-1:2010, and that necessary certifications are
+obtained.
+This SMP will be regularly reviewed and updated to reflect ongoing risk assessments, emerging
+safety standards, and any changes in operational requirements or experiences.
+Toolset/Techniques Implementation
+Reasoning
+FHA Provides a detailed breakdown of failure risks and ensures each component is
+evaluated for its potential contribution to system failures.
+PHA and PSSA They are essential in the early stages to guide the overall safety approach,
+ensuring the system design incorporates necessary safety functions
+FMEA, HAZOP
+and FTA
+Allow for a thorough risk analysis, ensuring that both design and operational
+risks are accounted for, significantly reducing the likelihood of system failure
+SBD and Design
+FMEA
+During the design phase help ensure that the safety-critical aspects of the
+system architecture are implemented and that the design is robust enough to
+handle identified risks
+Usage
+Explain how the toolset/techniques are to be used
+Tool/Technique Standard Clause
+PHA Preliminary Hazard
+Analisys
+IEC 61508-1:2010 7.4, Hazard and risk analysis
+PSSA Preliminary System
+Safety Assessment
+IEC 61508-1:2010 8, Functional safety
+assessment
+SSA System Safety
+Assessment
+IEC 61508-1:2010 8, Functional safety
+assessment
+MdU/FLA402 00_007.1R_Safety Management Plan 2024-10-13/SD
+5
+FMEA Failure Mode and
+Effects Analysis
+Recommended Tool
+FTA Fault Tree Analysis Recommended Tool
+CCA Common Cause
+Analysis
+IEC 61508-1:2010 7.6.2.7, Overall safety
+requirements allocation
+SBD Safety Block
+Diagrams
+Recommended Tool
+Safety Management Process (IEC 61508)
+The Safety Management Process is a structured approach designed to ensure that systems operate
+safely throughout their lifecycle. This process is divided into the key phases, each crucial to achieving
+and maintaining a high level of safety throughout the entire process:
+Concept and Definition
+Define the safety-related objectives and outline the system's safety requirements in compliance with
+SS-EN 61010-1:2010 and IEC 61508. The aim is to ensure that the system meets the necessary safety
+integrity levels (SIL) and adheres to functional safety regulations for electronic and programmable
+electronic safety-related systems.
+Safety Objective Establish safety measures that protect both personnel and equipment during
+all phases of operation, including abnormal or failure conditions.
+System Safety
+Requirements:
+The system must comply with safety-critical requirements.
+Safety Integrity
+Level (SIL)
+Classification
+Define the appropriate SIL for each safety function based on the risk
+assessment
+Tools
+PHA – Preliminary Hazard Analysis
+PSSA - Preliminary System Safety Assessment
+FHA – Fault Hazard Assessment (SIL)
+Hazard and Risk Analysis
+Conduct a detailed Hazard and Risk Analysis to identify potential safety hazards and risks associated
+with the system.
+Hazard Identification Focus on identifying hazards related to system malfunction, failure, or
+misuse.
+Risk Assessment Evaluate the likelihood and impact of these hazards, considering both
+normal and adverse operating conditions.
+Risk Reduction Goals Establish goals for reducing identified risks through design
+improvements, safety features, or operational procedures.
+Tools
+FMEA - Failure Mode and Effects Analysis
+FTA - Fault Tree Analysis
+MdU/FLA402 00_007.1R_Safety Management Plan 2024-10-13/SD
+6
+Safety Requirements Specification (SRS)
+Based on the risk assessment, create a Safety Requirements Specification (SRS). The SRS outlines all
+necessary safety functions that must be implemented to manage the risks identified in the previous
+phase:
+Functional
+Requirements
+Define the system's functional safety requirements, ensuring it operates within
+safe parameters under all conditions.
+Non-functional
+Requirements
+Specify additional safety-related attributes such as maximum operating
+temperatures, fail-safes, or protective barriers.
+Follow the steps on the Requirement Management Plan to develop the requirements.
+Design and Implementation
+The design phase must integrate the safety requirements defined in the SRS. All components,
+systems, and processes should be designed with safety as a priority, complying with the defined
+standards.
+System Architecture Incorporating fault-tolerant designs and safety redundancies.
+Fault Tolerance Implement redundancy and fail-safe mechanisms in critical systems
+to ensure safety in case of single-point failures or electrical
+malfunctions.
+Implementation of Safety
+Features
+Installing necessary safety mechanisms such as emergency shut-offs,
+warning systems, and safeguards for electrical and mechanical risks.
+Tools SBD - Safety Block Diagrams
+Design FMEA - Design Failure Modes and Effects Analysis
+Verification and Validation (V&V)
+Conduct thorough Verification and Validation (V&V) to ensure the verify that all safety requirements
+are met. This involves:
+Verification Ensuring that the system design matches the safety specifications outlined in
+the SRS.
+Validation Testing the system under both normal and extreme conditions to confirm that
+safety mechanisms operate as intended.
+Documentation Recording the test results to ensure traceability and support future
+compliance and certification needs.
+Follow the steps on the V&V Management Plan to conduct the verification.
+Operation and Maintenance Planning
+While operation and maintenance planning is vital for ensuring long-term product performance, it is
+not applicable to this project. As the focus is solely on delivering a virtual prototype, which will not
+be deployed or operated in a real-world environment, there is no need for maintenance procedures
+or operational planning.
+Documentation
+MdU/FLA402 00_007.1R_Safety Management Plan 2024-10-13/SD
+7
+Safety Requirements
+Specification (SRS)
+Maintain an up-to-date SRS to document all safety processes, including
+hazard analysis, risk mitigation, and verification results (Standard, IEC
+61508-1-2…)
+Traceability Ensure that all safety-related processes and requirements are fully
+traceable from specification to final validation.
+Standards/References
+List of standards and references used to build the boundaries of the management plan
+Standards
+IEC 61508-1-2010 Functional safety of electrical/electronic/programmable electronic safetyrelated
+systems – Part 1: General requirements
+EN 61010-1 2010 Safety requirements for electrical equipment for measurement, control, and
+laboratory use Part 1: General requirements
+References
+N/A
