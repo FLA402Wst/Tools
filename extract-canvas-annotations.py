@@ -1,5 +1,5 @@
 # Extract annotations from pdf with Canvas annotations.
-# 1. Download annotaded pdf from Canvas.
+# 1. Download annotated pdf from Canvas.
 # 2. Generate new pdf with annotations on sep. page after each page.
 #     - In Adobe: Do print to pdf after click on Summrize Comments at bottom of print dialogue.
 #     - In Adobe: Copy all (CtlA CtlC) of generated pdf file contents to Notepad (CtlV) - save as ANSI-file!
@@ -10,6 +10,7 @@
 # History:
 # 2024-10-25/GF: Introduced 0.1/0 
 # 2024-10-25/GF: 0.2/0 - Added page header printout
+# 2024-11-06/GF: 0.2/1 - Corrected spelling in comment as gfm10001 MdH.
 #
 
 import sys
@@ -17,7 +18,7 @@ import sys
 # total arguments
 n = len(sys.argv)
 
-C_THIS_VERSION = "Extract Canvas Annotations v.0.2/0 of 2024-10-25/GF"
+C_THIS_VERSION = "Extract Canvas Annotations v.0.2/1 of 2024-11-06/GF"
 
 print()
 print(C_THIS_VERSION)
